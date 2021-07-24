@@ -2,6 +2,8 @@
 #19/02/21
 
 wage = float(input("Insira o valor do seu salário:"))
-finalValue = wage + (wage * 0.15)
+aumento = wage * 0.15
+finalValue = wage + aumento
 
-print("O reajuste salárial de {} com aumento de 15% é: {:.2f}.".format(wage, finalValue))
+print("15% de aumento é: R$ {:.2f}.".format(aumento))
+print("Valor final do salário: R$ {:.2f}.".format(finalValue))

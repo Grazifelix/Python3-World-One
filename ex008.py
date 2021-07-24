@@ -1,5 +1,6 @@
 # Metro para centrimetro e milimetro
 # 18/02/21
+# OK
 
 m = float(input("Insira um valor em metros:"))  # float é numero de ponto flutuante, em outras palavras um numero real como casas decimais depois do ponto.
 cm = m*100
